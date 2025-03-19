@@ -2,10 +2,6 @@
   "name": "n8n-monorepo",
   "version": "1.84.0",
   "private": true,
-  "engines": {
-    "node": ">=20.15",
-    "pnpm": ">=10.2.1"
-  },
   "packageManager": "pnpm@10.2.1",
   "scripts": {
     "prepare": "node scripts/prepare.mjs",
