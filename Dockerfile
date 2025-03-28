@@ -60,4 +60,4 @@ RUN \
 
 ENV SHELL /bin/sh
 USER node
-ENTRYPOINT ["n8n"]
+ENTRYPOINT ["/usr/local/bin/n8n"]
