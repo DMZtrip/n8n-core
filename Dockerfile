@@ -60,4 +60,4 @@ RUN \
 
 ENV SHELL /bin/sh
 USER node
-ENTRYPOINT ["node", "/usr/local/lib/node_modules/n8n/dist/commands/start.js"]
+ENTRYPOINT ["n8n"]
