@@ -60,4 +60,5 @@ RUN \
 
 ENV SHELL /bin/sh
 USER node
-ENTRYPOINT ["/usr/local/bin/n8n"]
+ENTRYPOINT ["tini", "--", "/docker-entrypoint.sh"]
+CMD ["n8n"]
